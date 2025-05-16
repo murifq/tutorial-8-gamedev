@@ -1,0 +1,6 @@
+# Tutorial 8
+Dalam tutorial 8 Game Development ini, saya menggunakan particles di Godot Engine untuk mempercantik visual game, seperti membuat efek hujan dengan GPUParticles2D dan menambahkan jejak (trail) saat pemain berjalan. Partikel ini diatur melalui berbagai properti seperti jumlah (amount), ukuran (scale), area (emission shape), dan kecepatan (gravity dan velocity) agar menghasilkan efek visual yang lebih menarik.
+
+Selanjutnya, pada bagian Game Balancing, saya mencoba menyeimbangkan tingkat kesulitan permainan dengan mengatur spawn rate musuh. Dalam scene Spawner.tscn, awalnya spawn rate terlalu cepat sehingga pemain tidak memiliki celah untuk melompati musuh dan menyelesaikan level. Sebaliknya, ketika spawn rate terlalu lambat, permainan menjadi terlalu mudah dan kurang menantang.
+
+Untuk menciptakan pengalaman bermain yang lebih seimbang dan menjaga pemain tetap berada dalam kondisi flow, saya akhirnya menetapkan nilai spawn rate menjadi 1.5 detik. Dengan pengaturan ini, jumlah musuh yang muncul terasa cukup menantang tanpa membuat pemain frustrasi, sehingga menghasilkan gameplay yang lebih menyenangkan dan fair.
